@@ -1,12 +1,12 @@
 {
-  "name": "singhshailendra.in",
+  "name": "inguzdev.co",
   "version": "0.2.0",
   "private": true,
   "author": {
-    "name": "Shailendra Singh",
-    "url": "https://singhshailendra.in"
+    "name": "Aryan Inguz",
+    "url": "https://inguzdev.co"
   },
-  "homepage": "https://singhshailendra.in",
+  "homepage": "https://inguzdev.co",
   "keywords": [
     "tailwindcss",
     "template",

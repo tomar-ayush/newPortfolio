@@ -23,8 +23,9 @@ const Hero = () => {
                 </RoughNotation>{" "}
               </h1>
               <p className="mt-8 max-w-2xl text-sm tracking-wide text-muted-foreground md:text-base md:leading-loose">
-                I love programming my ideas into reality, with code. I'm a web + mobile app developer
-                with a keen intrest in Cyber Security and Cloud as well, Nice to meet you!
+                I love programming my ideas into reality, with code. I'm a web +
+                mobile app developer with a keen intrest in Cyber Security and
+                Cloud as well, Nice to meet you!
               </p>
             </div>
             <div className="order-first md:order-last">
@@ -111,10 +112,12 @@ const Hero = () => {
             <RoughNotation type="box" show color="cyan">
               {" "}
               <span className="text-blue-600">
-              <Link href="mailto:aryaninguz369@gmail.com" target="_blank">
-                connect    me 
-              </Link> </span>
-            </RoughNotation> if you want to bring your MVP idea to life.{" "}
+                <Link href="mailto:aryaninguz369@gmail.com" target="_blank">
+                  contact me
+                </Link>{" "}
+              </span>
+            </RoughNotation>{" "}
+            if you want to bring your MVP idea to life.{" "}
             <Link href="/about">
               <span className="text-blue-600">Read more</span>
             </Link>
