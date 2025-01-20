@@ -24,9 +24,9 @@ export const actions = [
     iconColor: "#0D2805",
   },
   {
-    name: "Twitter",
-    keywords: "twitter",
-    href: "https://x.com/shailendra_1701",
+    name: "Contact",
+    keywords: "contact",
+    href: "https://wa.me/919816328430",
     section: "Socials",
     color: "#63C7FA",
     iconColor: "#102E62",

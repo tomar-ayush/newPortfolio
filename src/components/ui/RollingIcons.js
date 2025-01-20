@@ -1,19 +1,19 @@
 "use client";
-import React, { useEffect, useState, useRef } from "react";
-import { useTheme } from "next-themes";
-import { motion, AnimatePresence } from "framer-motion";
-import { GitHubLogo, TwitterLogo } from "@/constants/icons";
 import { actions } from "@/constants/cmd";
-import Link from "next/link";
+import { GitHubLogo } from "@/constants/icons";
 import { cn } from "@/utils/className";
 import {
   HomeIcon,
   MoonIcon,
   PencilIcon,
   PlusIcon,
-  ComputerDesktopIcon,
-  SunIcon,
+  SunIcon
 } from "@heroicons/react/24/solid";
+import { AnimatePresence, motion } from "framer-motion";
+import { useTheme } from "next-themes";
+import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
+import { FaWhatsapp } from "react-icons/fa6";
 
 const RollingIcons = () => {
   const [expanded, setExpanded] = useState(false);
@@ -161,10 +161,8 @@ const RollingIcons = () => {
                         className={`h-6 w-6 text-[${action.iconColor}]`}
                       />
                     )}
-                    {action.keywords === "twitter" && (
-                      <TwitterLogo
-                        className={`h-6 w-6 text-[${action.iconColor}]`}
-                      />
+                    {action.keywords === "contact" && (
+                     <FaWhatsapp className={`h-6 w-6 text-[${action.iconColor}]`} />
                     )}
                     {action.keywords === "light" && (
                       <SunIcon

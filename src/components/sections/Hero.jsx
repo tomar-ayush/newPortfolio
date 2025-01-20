@@ -7,7 +7,7 @@ import { RoughNotation } from "react-rough-notation";
 const Hero = () => {
   return (
     <>
-      <div className="absolute inset-0 flex md:mt-52 mt-28 mx-4 md:mx-8 lg:mx-0 text-muted-foreground ">
+      <div className="absolute inset-0 flex md:mt-52 mt-28 px-2 sm:px-0 mx-4 md:mx-8 lg:mx-0 text-muted-foreground ">
         <div className="relative z-40 mx-auto  max-w-[52rem] ">
           <div className="flex flex-col justify-between space-y-10  md:flex-row md:space-x-10 md:space-y-0">
             <div>

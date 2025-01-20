@@ -24,7 +24,7 @@ const LatestBlogs = () => {
   }, []);
 
   return (
-    <div className="max-w-3xl  lg:mx-auto lg:-mt-20 md:mt-8 mx-4 md:mx-8 ">
+    <div className="max-w-3xl px-1 sm:px-0  lg:mx-auto lg:-mt-20 md:mt-8 mx-4 md:mx-8 ">
       <div className="flex flex-col items-center justify-center space-y-4 text-center  ">
         <div className="space-y-2 z-10">
           <div className="inline-block rounded-lg bg-foreground text-background px-3 py-2 text-sm font-semibold">

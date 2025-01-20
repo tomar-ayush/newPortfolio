@@ -6,7 +6,7 @@ import React, { useRef } from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-quaternary text-center border-gray-200 pb-24 mx-auto max-w-5xl border-t border-dashed py-12 pt-4 text-sm dark:border-gray-700 dark:text-gray-600">
+    <footer className="text-quaternary text-center border-gray-200 px-2 sm:px-0 pb-24 mx-auto max-w-5xl border-t border-dashed py-12 pt-4 text-sm dark:border-gray-700 dark:text-gray-600">
       <FooterGraphics />
       <span className="">
         © Aryan Inguz {new Date().getFullYear()}. Website built using
