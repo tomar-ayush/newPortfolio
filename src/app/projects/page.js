@@ -95,6 +95,9 @@ export default function Projects() {
                       </BlurFade>
                       <BlurFade delay={BLUR_FADE_DELAY * 14}>
                         <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+                          <p>
+                            Wait for it... I've not updated this section yet.
+                          </p>
                           {FREELANCE_PROJECTS.map((project, id) => (
                             <BlurFade
                               key={project.title + project.dates}

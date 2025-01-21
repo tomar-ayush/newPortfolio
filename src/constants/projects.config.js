@@ -4,7 +4,7 @@ import { ExternalLink, Link, ArchiveIcon } from "lucide-react";
 export const PROJECTS = [
   {
     title: "Picwise.co - Image Optimization Application",
-    href: "https://shailendra1703.github.io/Array-Sorting-Visualizer/",
+    href: "https://www.picwise.co",
     dates: "2023",
     active: false,
     description:
