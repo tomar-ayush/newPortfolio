@@ -57,7 +57,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Aryan Inguz",
     description:
-      "I'm Aryan Inguz, a web developer and cybersecurity enthusiast",
+      "I'm Aryan Inguz, full stack web and mobile app developer programming ideas into reality.",
     siteId: "inguzdev",
     creator: "inguzdev",
     creatorId: "inguzdev",
