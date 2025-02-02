@@ -6,29 +6,26 @@ import AnimateEnter from "@/components/ui/AnimateEnter";
 import Script from "next/script";
 
 export const metadata = {
-  title: { default: "Aryan Inguz" },
-  creator: "Aryan Inguz",
-  publisher: "Aryan Inguz",
+  title: { default: "Ayush" },
+  creator: "Ayush Pratap Singh",
+  publisher: "Ayush Pratap Singh",
   description:
-    "I'm Aryan Inguz, a web developer and cybersecurity enthusiast",
+    "I'm Ayush Pratap Singh , a web developer and cybersecurity enthusiast",
   keywords: [
-    "Aryan Inguz",
-    "Inguz Dev",
+    "Ayush Pratap Singh",
+    "Ayush Tomar",
     "Web Developer",
-    "App Developer",
-    "inguzdev",
-    "inguzdev.co",
   ],
-  authors: [{ name: "Aryan Inguz", url: "https://inguzdev.co" }],
+  authors: [{ name: "Ayush Pratap Singh", url: "https://ayushtomar.tech" }],
   openGraph: {
-    title: "Aryan Inguz",
+    title: "Ayush Pratap Singh",
     description:
-      "I'm Aryan Inguz, a web developer and cybersecurity enthusiast",
-    url: "https://inguzdev.co",
-    siteName: "Aryan Inguz",
+      "I'm  Ayush, a web developer and cybersecurity enthusiast",
+    url: "https://ayushtomar.tech",
+    siteName: "Ayush Tomar",
     images: [
       {
-        url: "https://inguzdev.co/og.png",
+        url: "https://ayushtomar.tech/og.png",
         width: 1200,
         height: 678,
         alt: "",
@@ -55,20 +52,20 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aryan Inguz",
+    title: "Ayush Tomar",
     description:
-      "I'm Aryan Inguz, full stack web and mobile app developer programming ideas into reality.",
-    siteId: "inguzdev",
-    creator: "inguzdev",
-    creatorId: "inguzdev",
+      "I'm Ayush Pratap Singh, full stack web developer programming ideas into reality.",
+    siteId: "ayushtomar",
+    creator: "ayush",
+    creatorId: "ayushtomar",
     images: {
-      url: "https://inguzdev.co/og.png",
+      url: "https://ayushtomar.tech/og.png",
       alt: "",
     },
   },
 
   alternates: {
-    canonical: "https://inguzdev.co",
+    canonical: "https://ayushtomar.tech",
   },
   category: "technology",
 };
@@ -77,11 +74,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <Script
-          defer
-          src="https://cloud.umami.is/script.js"
-          data-website-id="d3c56799-22aa-4622-b0d5-b686d3adf197"
-        />
+
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="928d7257-0d8c-4850-8b7a-c19a84966efe"></script>
       </head>
       <link rel="shortcut icon" href="/images/profile.jpg" />
       <body className="bg-white dark:bg-slate-950">

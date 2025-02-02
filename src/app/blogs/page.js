@@ -10,7 +10,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://inguzdev.co/api/og?title=Blogs",
+        url: "https://ayushtomr.tech/api/og?title=Blogs",
         width: 1200,
         height: 630,
         alt: "",
@@ -23,14 +23,14 @@ export const metadata = {
     description: "I write sometimes please check them out",
     images: [
       {
-        url: "https://inguzdev.co/api/og?title=Blogs",
+        url: "https://ayushtomar.tech/api/og?title=Blogs",
         width: 1200,
         height: 630,
         alt: "",
       },
     ],
   },
-  alternates: { canonical: "https://inguzdev.co/blogs" },
+  alternates: { canonical: "https://ayushtomar.tech/blogs" },
 };
 
 export default () => (

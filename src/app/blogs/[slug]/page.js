@@ -82,7 +82,7 @@ export default ({ params }) => {
                 ? `https://inguzdev.co${post.metadata.image}`
                 : `/og?title=${encodeURIComponent(post.metadata.title)}`,
               url: `https://inguzdev.co/blogs/${post.slug}`,
-              author: { "@type": "Person", name: "Aryan Inguz" },
+              author: { "@type": "Person", name: "Ayush Pratap Singh " },
             }),
           }}
         />

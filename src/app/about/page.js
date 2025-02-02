@@ -15,7 +15,7 @@ import { FiCornerUpLeft } from "react-icons/fi";
 const BLUR_FADE_DELAY = 0.04;
 
 export const metadata = {
-  title: "Aryan Inguz | About",
+  title: "Ayush | About",
   description: "A breif description about me and my work.",
 };
 
@@ -39,6 +39,7 @@ export default function About() {
             you&apos;re here!
           </p>
         </BlurFade>
+        {/*
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <Image
             src="/images/about.jpg"
@@ -48,6 +49,8 @@ export default function About() {
             className="rounded-xl w-full h-auto object-cover max-h-[400px]"
           />
         </BlurFade>
+        */}
+
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
@@ -59,6 +62,7 @@ export default function About() {
           </Markdown>
         </BlurFade>
       </section>
+      {/*
       <section id="career">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">Career</h2>
@@ -69,6 +73,7 @@ export default function About() {
           </Markdown>
         </BlurFade>
       </section>
+      */}
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
@@ -119,6 +124,7 @@ export default function About() {
           ))}
         </div>
       </section>
+      {/*
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -146,6 +152,7 @@ export default function About() {
           </BlurFade>
         </div>
       </section>
+          */}
       <section id="connect">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">Hook with me</h2>

@@ -1,12 +1,12 @@
 {
-  "name": "inguzdev.co",
+  "name": "ayushtomar.tech",
   "version": "0.2.0",
   "private": true,
   "author": {
-    "name": "Aryan Inguz",
-    "url": "https://inguzdev.co"
+    "name": "Ayush Pratap Singh",
+    "url": "https://ayushtomar.tech"
   },
-  "homepage": "https://inguzdev.co",
+  "homepage": "https://ayushtomar.tech",
   "keywords": [
     "tailwindcss",
     "template",

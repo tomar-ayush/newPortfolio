@@ -14,7 +14,7 @@ const Navbar = () => {
           className="font-poppins text-xl font-semibold flex items-center"
         >
           <FaCode className="h-6 w-6 opacity-80 mr-4" />
-          <span className="font-kaushan">Aryan Inguz</span>
+          <span className="font-kaushan">Ayush Pratap Singh </span>
         </Link>
         <div className="space-x-4 hidden lg:block">
           {navbar.map((data) => (

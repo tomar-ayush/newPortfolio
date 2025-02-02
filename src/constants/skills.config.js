@@ -7,17 +7,12 @@ export const SKILLS = [
       "Next.js",
       "TailwindCSS",
       "Reduxjs/toolkit",
-      "Framer motion",
     ],
   },
 
   {
     category: "Backend",
-    technologies: ["Node.js", "Hono.js", "Express.js", "Flask", "Kafka"],
-  },
-  {
-    category: "Mobile",
-    technologies: ["React Native", "Expo"],
+    technologies: ["Node.js", "Hono.js", "Express.js"],
   },
   {
     category: "Databases",
@@ -25,9 +20,6 @@ export const SKILLS = [
       "MongoDB",
       "PostgreSQL",
       "MySQL",
-      "Redis",
-      "supabase",
-      "firebase",
     ],
   },
   {
@@ -37,10 +29,8 @@ export const SKILLS = [
       "Git",
       "Github",
       "Gitlab",
-      "Jira",
-      "Confluence",
-      "Slack",
-      "Trello",
+      "Vim",
+      "Nvim",
     ],
   },
   {
@@ -49,6 +39,6 @@ export const SKILLS = [
   },
   {
     category: "Languages",
-    technologies: ["Typescript","Java","C++", "C", "Python"],
+    technologies: ["Java", "C++", "C", "Python", "JavaScript"],
   }
 ];

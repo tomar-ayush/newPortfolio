@@ -13,11 +13,11 @@ const navbar = [
   },
   {
     name: "Github",
-    href: "https://github.com/aryainguz",
+    href: "https://github.com/tomar-ayush",
   },
   {
     name: "Contact",
-    href: "https://wa.me/919816328430",
+    href: "mailto:ayushtomar8624@gmail.com",
   },
 ];
 

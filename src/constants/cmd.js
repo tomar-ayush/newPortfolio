@@ -18,11 +18,12 @@ export const actions = [
   {
     name: "GitHub",
     keywords: "github",
-    href: "https://github.com/aryainguz",
+    href: "https://github.com/tomar-ayush",
     section: "Socials",
     color: "#61C167",
     iconColor: "#0D2805",
   },
+  /*
   {
     name: "Contact",
     keywords: "contact",
@@ -31,6 +32,7 @@ export const actions = [
     color: "#63C7FA",
     iconColor: "#102E62",
   },
+  */
   {
     name: "Light",
     keywords: "light",
@@ -67,7 +69,7 @@ export const Socials = [
     name: "GitHub",
     keywords: "github",
     perform: () => {
-      window.open("https://github.com/aryainguz");
+      window.open("https://github.com/tomar-ayush");
     },
     section: "Socials",
   },
@@ -75,7 +77,7 @@ export const Socials = [
     name: "Twitter",
     keywords: "twitter",
     perform: () => {
-      window.open("https://x.com/inguzdev");
+      window.open("https://x.com/_ayushtomar");
     },
     section: "Socials",
   },

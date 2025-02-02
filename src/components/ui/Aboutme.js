@@ -2,13 +2,13 @@ import React from "react";
 import Image from "next/image";
 import hero from "../../assets/hero.svg";
 import Heading from "@/utils/Heading";
-// import { aboutme } from "@/constants/aboutme";
+//import { aboutme } from "@/constants/aboutme";
 const Aboutme = () => {
   return (
     <div className="px-8 lg:px-0 max-w-6xl mx-auto">
       <div className="grid lg:grid-cols-2 grid-cols-1 justify-center items-center gap-5 my-20">
         <div>
-          <Heading heading={"Hii I'm Aryan Inguz"} size="lg" />
+          <Heading heading={"Hii I'm Ayush "} size="lg" />
           <p className="py-3">{aboutme.about}</p>
         </div>
         <Image
