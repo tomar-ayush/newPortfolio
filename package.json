@@ -60,5 +60,8 @@
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.156.1",
     "unified": "^11.0.5"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
   }
 }
