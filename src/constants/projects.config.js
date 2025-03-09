@@ -3,49 +3,49 @@ import { ExternalLink, Link, ArchiveIcon } from "lucide-react";
 
 export const PROJECTS = [
   {
-    title: "Picwise.co - Image Optimization Application",
-    href: "https://www.picwise.co",
+    title: "Infinty - Sales and Marketing Automation",
+    href: "https://infinity-saas.vercel.app/",
     dates: "2023",
     active: false,
     description:
-      "A feature-rich web application offering advanced image processing tools, including free image compression upto 90%, background removal, format conversion (JPG/PNG), and resizing. Designed to ensure high performance and user-friendliness for photographers, designers, and casual users alike. Built with modern web technologies like Next.js for scalability.",
+      "Infinity is a platform built using Next.js, Node.js, and Express.js that acts like a cofounder by sending custom personalized emails to potential clients of a business. The project is designed to automate and enhance client outreach by tailoring email content based on business needs, ensuring better engagement and conversion rates",
     technologies: ["Typescript", "HTML", "TailwindCSS", "NextJS"],
     links: [
       {
         type: "Website",
-        href: "https://www.picwise.co",
+        href: "https://infinity-saas.vercel.app/",
         icon: <Icons.globe className="h-3 w-3" />,
       },
       {
         type: "Source",
-        href: "https://github.com/Aryainguz/picwise.co",
+        href: "https://github.com/tomar-ayush/newinfinity",
         icon: <Icons.github className="h-3 w-3" />,
       },
     ],
-    image: "/projects/picwiseco.png",
+    image: "/projects/infinity.png",
     video: "",
   },
   {
-    title: "OpenCourse.in - AI Powered Free Learning",
-    href: "https://www.opencourse.in",
+    title: "flex-it-out - AI Powered Exercising Platform",
+    href: "https://flexitout1.vercel.app/",
     dates: "Oct 2024 - Present",
     active: false,
     description:
-      "An AI-powered platform that generates personalized video-based courses, aimed at providing free, accessible education. By leveraging AI, it curates relevant content and creates tailored learning paths, democratizing education for all.",
-    technologies: ["Gemini AI", "Typescript", "Nextjs", "PostgreSQL"],
+      "Flex It Out is an innovative platform designed to engage users in daily challenges, rewarding their achievements and fostering a vibrant community. Leveraging advanced AI pose detection using TensorFlow.js, the platform offers an interactive and immersive user experience.",
+    technologies: ["tensorflow/pose-detection", "Typescript", "Nextjs", "Mongo DB"],
     links: [
       {
         type: "Website",
-        href: "https://www.opencourse.in/",
+        href: "https://flexitout1.vercel.app/",
         icon: <Icons.globe className="h-3 w-3" />,
       },
       {
         type: "Source",
-        href: "https://github.com/Aryainguz/opencourse.in",
+        href: "https://github.com/tomar-ayush/flex-it-ou",
         icon: <Icons.github className="h-3 w-3" />,
       },
     ],
-    image: "/projects/opencoursein.png",
+    image: "/projects/flex-it-out.png",
     video: "",
   },
 ];
